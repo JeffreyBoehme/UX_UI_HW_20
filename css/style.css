@@ -10,9 +10,7 @@
 height:80%;
 width:90%;
 }
-.bottomcarousel{
 
-}
 
 .mb-3{
     margin: 0px 5% 0px 5%;
@@ -47,4 +45,74 @@ align-items: center;
 }
 .storyCards{
     width:90%;
+}
+.prototypingSection{
+    height:30%;
+}
+
+.protoCarousel{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    height:90%;
+
+}
+.bottomcarousel{
+    margin:auto;
+    width:100%;
+    height:100%;
+}
+.leftcarousel{
+    margin:auto;
+    width:100%;
+    height:100%;
+}
+
+.rightcarousel{
+    margin:auto;
+    width:100%;
+    height:100%;
+}
+
+.carousel-inner-left{
+
+    width:80%;
+    height:80%;
+    margin-left:20%;
+    margin-right:auto;
+}
+
+.carousel-inner-mid{
+
+    width:100%;
+    height:100%;
+}
+
+.carousel-inner-right{
+
+width:80%;
+height:80%;
+margin-right:20%;
+margin-left:auto;
+
+}
+.topgap{
+    height:55px;
+}
+
+.topgap2{
+    height:40px;
+}
+
+.toc{
+    background-color:rgba(255,255,255,0.9);
+    z-index:100 !important;
+    width:100%;
+    height:50px;
+    align-items:center;
+}
+
+.nav-item{
+    z-index:101;
 }
