@@ -1,0 +1,47 @@
+
+.section{
+    background: url(../images/sectiontop.png) top no-repeat, url(../images/sectionbottom.png) bottom no-repeat;
+    background-size:contain;
+    background-size: 100% 20%;
+    width:100%;
+}
+
+.topcarousel{
+height:80%;
+width:90%;
+}
+.bottomcarousel{
+    
+}
+
+.mb-3{
+    margin: 0px 5% 0px 5%;
+}
+
+.img-right{
+    float:right;
+}
+
+.img-fluid{
+    width:100%;
+}
+
+.intro{
+display:flex;
+width:100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.introLogo{
+
+    width:200px;
+}
+.cardContainer{
+    margin-bottom:10px;
+}
+
+.text-align-right{
+    text-align:right;
+}
