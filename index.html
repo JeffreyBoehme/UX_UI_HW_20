@@ -8,7 +8,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- My CSS link -->
         <link rel="stylesheet" href="css/style.css" type="text/css">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <!-- Body Element -->
     <body>
@@ -31,18 +31,30 @@
                         </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            Table of Contents
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li class="nav-item">
+                                <a class="dropdown-item active" aria-current="page" href="#Research">1. Research</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item" href="#Definition">2. Definition</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item" href="#Ideation">3. Ideation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item" href="#Proto">4.Prototyping</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item" href="#Testing">5. Testing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item" href="#Closing">6. Closing Throughts</a>
+                            </li>
                           </ul>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
+
                       </ul>
                       <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -52,34 +64,8 @@
                   </div>
               </nav>
               <div class="topgap"></div>
-        <div class="tableOfContents">
-            <ul class="nav navbar-dark position-fixed toc">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">1. Research</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">2. Definition</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">3. Ideation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">4.Prototyping</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">5. Testing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">6. Closing Throughts</a>
-                </li>
-              </ul>
-
-
-
-
-        </div>
-        <div class="topgap2"></div>
         
+      
         <!-- Project title card -->
         <div class="projectInformation">
             <h1 class="sectionTitle">Project Title</h1>
@@ -141,6 +127,7 @@
         </div>
     </section>  
         <!-- research Section -->
+        <div id="Research" class="topgap2"></div>
     <section class="researchSection section">
         <div>
             <h1 class="sectionTitle">Research Phase</h1>
@@ -229,10 +216,11 @@
                   </div>
                 </div>
               </div>
-
+              <div class="topgapsm"></div>
         </div>
     </section>
         <!-- definition Section -->
+        <div id="Definition" class="topgap2"></div>
     <section class="definitionSection section">
         <div>
             <h1 class="sectionTitle">Definition Phase</h1>
@@ -272,9 +260,10 @@
               </div>
 
         </div>
-    </section>
+
         <!-- story Section -->
-    <section class="storySection section">
+        <div id="Story" class="topgap2w"></div>
+    <div class="storySection subsection">
         <div>
             <h1 class="sectionTitle">Story Board</h1>
 
@@ -353,17 +342,51 @@
 
 
 
-
+      <div class="topgapsm"></div>
+        </div>
         </div>
     </section>
         <!-- ideation Section -->
+        
+        <div id="Ideation" class="topgap2"></div>
     <section class="ideationSection section">
         <div>
             <h1 class="sectionTitle">Ideation Phase</h1>
+            <!-- card 1 -->
+            <div class="card mb-3" style="max-width: 90%;">
+                <div class="row g-0">
+                <div class="col-md-12">
+                    <img src="images/WIREFRAMEIMAGE.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card mb-3" style="max-width: 90%;">
+                <div class="row g-0">
+                    <div class="col-md-12">
+                        <img src="images/WIREFRAMEIMAGE.png" class="img-fluid rounded-start img-right" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
 
+                </div>
+            </div>
+            <div class="topgapsm"></div>
         </div>
     </section>
         <!-- prototyping Section -->
+        <div id="Proto" class="topgap2"></div>
+        <div class="topgap2"></div>
     <section class="prototypingSection section">
         <div>
             <h1 class="sectionTitle">Prototyping Phase</h1>
@@ -408,7 +431,7 @@
                 </div>
             </div>
           </div>
-          <h4>Prototyped Features and Iterations</h4>
+          <h4 class="protoFeatures">Prototyped Features and Iterations</h4>
 
                           <!-- Cards -->
     <div class="container-fluid content storyCards">
@@ -459,17 +482,132 @@
         </div>
       </div>
       <!-- End cards -->
-
+      <div class="topgapsm"></div>
         </div>
     </section>
         <!-- testing Section -->
+        <div id="Testing" class="topgap2"></div>
     <section class="testingSection section">
         <div>
             <h1 class="sectionTitle">Testing Phase</h1>
+            <!-- card 1 -->
+            <div class="card mb-3" style="max-width: 90%;">
+                <div class="row g-0">
 
+                <div class="col-md-12">
+                    <div class="card-body testingCard">
+                    <h5 class="card-title ">Testing Completed</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <img src="images/WIREFRAMEIMAGE.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card mb-3" style="max-width: 90%;">
+                <div class="row g-0">
+
+                <div class="col-md-12">
+                    <div class="card-body testingCard">
+                    <h5 class="card-title">User Testing Results</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <img src="images/WIREFRAMEIMAGE.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                </div>
+            </div>
+
+        <h4>Iterations from Testing</h4> 
+        <!-- Cards -->
+        <div class="container-fluid content storyCards">
+        <div class="row story">
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/WIREFRAMEIMAGE.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">1. </h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor vestibulum tellus tincidunt sollicitudin. Enim turpis sed in enim erat pretium purus porta sapien.</p>              </div>
+            </div>
+          </div>
+          <!-- End card 1 -->
+  
+          <!-- Card 2 -->
+          <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/WIREFRAMEIMAGE.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">2. </h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor vestibulum tellus tincidunt sollicitudin. Enim turpis sed in enim erat pretium purus porta sapien.</p>              </div>
+            </div>
+          </div>
+          <!-- End card 2 -->
+  
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/WIREFRAMEIMAGE.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">3. </h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor vestibulum tellus tincidunt sollicitudin. Enim turpis sed in enim erat pretium purus porta sapien.</p>              </div>
+            </div>
+          </div>
+          <!-- End card 3 -->
+           <!-- Card 4 -->
+           <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/WIREFRAMEIMAGE.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">4. </h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor vestibulum tellus tincidunt sollicitudin. Enim turpis sed in enim erat pretium purus porta sapien.</p>              </div>
+            </div>
+          </div>
+          <!-- End card 4 -->
+  
+          <!-- Card 5 -->
+          <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/WIREFRAMEIMAGE.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">5. </h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor vestibulum tellus tincidunt sollicitudin. Enim turpis sed in enim erat pretium purus porta sapien.</p>              </div>
+            </div>
+          </div>
+          <!-- End card 5 -->
+  
+          <!-- Card 6 -->
+          <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/WIREFRAMEIMAGE.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">6. </h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor vestibulum tellus tincidunt sollicitudin. Enim turpis sed in enim erat pretium purus porta sapien.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End card 6 -->
+        </div>
+      </div>
+      <!-- End cards -->
+
+
+            <div class="topgapsm"></div>
         </div>
     </section>
 
+            <!-- Closing Section -->
+            <section id="Closing" class="closingSection section">
+                <div>
+                    <h1 class="sectionTitle">Closing Throughts</h1>
+
+
+                    <div class="topgapsm"></div>
+                </div>
+            </section>
 
     </body>
 

@@ -2,7 +2,7 @@
 .section{
     background: url(../images/sectiontop.png) top no-repeat, url(../images/sectionbottom.png) bottom no-repeat;
     background-size:contain;
-    background-size: 100% 20%;
+    background-size: 102% 156px;
     width:100%;
 }
 
@@ -10,7 +10,12 @@
 height:80%;
 width:90%;
 }
-
+h1{
+    padding-left:25px;
+}
+.team, .roles, .protoFeatures{
+    padding-left:25px;
+}
 
 .mb-3{
     margin: 0px 5% 0px 5%;
@@ -102,7 +107,17 @@ margin-left:auto;
 }
 
 .topgap2{
-    height:40px;
+    height:55px;
+    background-color:#EBEBEB;
+}
+.topgap2w{
+    height:55px;
+
+}
+
+.topgapsm{
+    height:1px;
+    background-color:#EBEBEB;
 }
 
 .toc{
@@ -115,4 +130,16 @@ margin-left:auto;
 
 .nav-item{
     z-index:101;
+}
+
+.navigationSection, .researchSection, .ideationSection, .testingSection{
+    background-color:#EBEBEB;
+}
+
+.projectInformation{
+    text-align:center;
+}
+
+.testingCard{
+    text-align:center;
 }
