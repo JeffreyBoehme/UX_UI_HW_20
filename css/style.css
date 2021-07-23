@@ -6,6 +6,24 @@
     width:100%;
 }
 
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+}
+
+.sectionTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: 'PT Serif', serif;
+}
+
+p{
+    font-family: 'PT Serif', serif;
+}
+
 .topcarousel{
 height:80%;
 width:90%;
@@ -102,8 +120,12 @@ margin-right:20%;
 margin-left:auto;
 
 }
+
+.logo{
+    margin-right: 15px;
+}
 .topgap{
-    height:55px;
+    height:85px;
 }
 
 .topgap2{
@@ -142,4 +164,9 @@ margin-left:auto;
 
 .testingCard{
     text-align:center;
+}
+.closingflexbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
