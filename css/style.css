@@ -6,6 +6,10 @@
     width:100%;
 }
 
+body{
+    background-color: #E4F4FB;
+}
+
 .navbar-brand{
     font-family: 'Montserrat', sans-serif;
     font-weight:800;
@@ -28,13 +32,59 @@ p{
 height:80%;
 width:90%;
 }
+.topcarouselimage{
+    width:100%;
+    height:1200;
+}
+
+.carouselAccompaniment, .subcard{
+    width:70%;
+    text-align: center;
+    margin-top:20px;
+}
+.carousel-caption{
+    background-color:rgba(255,255,255,0.9);
+}
+
+
+
+.definitioncard1,.definitioncard2,.definitioncard3{
+    padding:0px 35px 0px 35px;
+
+}
+
+.definitioncard1{
+background-image: url("../images/cardbacking1.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.definitioncard2{
+    background-image: url("../images/cardbacking2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.definitioncard3{
+    background-image: url("../images/cardbacking3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.definitioncard h5, .definitioncard p{
+    color:white;
+}
+
 h1{
     padding-left:25px;
 }
-.team, .roles, .protoFeatures{
+.team, .roles, .protoFeatures, .iterations{
     padding-left:25px;
 }
 
+.nav-link{
+    color:white !important;
+}
 .mb-3{
     margin: 0px 5% 0px 5%;
 }
@@ -125,12 +175,12 @@ margin-left:auto;
     margin-right: 15px;
 }
 .topgap{
-    height:85px;
+    height:100px;
 }
 
 .topgap2{
     height:55px;
-    background-color:#EBEBEB;
+    background-color:#EED2C8;
 }
 .topgap2w{
     height:55px;
@@ -139,7 +189,7 @@ margin-left:auto;
 
 .topgapsm{
     height:1px;
-    background-color:#EBEBEB;
+    background-color:#EED2C8;
 }
 
 .toc{
@@ -155,7 +205,7 @@ margin-left:auto;
 }
 
 .navigationSection, .researchSection, .ideationSection, .testingSection{
-    background-color:#EBEBEB;
+    background-color:#F7F6F2;
 }
 
 .projectInformation{
@@ -169,4 +219,11 @@ margin-left:auto;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.closingflexbox h3{
+ font-size: 26pt;   
+}
+.closingflexbox li{
+    font-size: 20pt;
 }
