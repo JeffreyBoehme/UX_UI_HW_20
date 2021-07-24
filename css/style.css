@@ -76,7 +76,7 @@ background-repeat: no-repeat;
 }
 
 h1{
-    padding-left:25px;
+    padding-left:7%;
 }
 .team, .roles, .protoFeatures, .iterations{
     padding-left:25px;
@@ -87,6 +87,11 @@ h1{
 }
 .mb-3{
     margin: 0px 5% 0px 5%;
+}
+
+.subcard{
+margin-left:5%;
+width:90%;
 }
 
 .img-right{
@@ -179,7 +184,7 @@ margin-left:auto;
 }
 
 .topgap2{
-    height:55px;
+    height:75px;
     background-color:#EED2C8;
 }
 .topgap2w{
