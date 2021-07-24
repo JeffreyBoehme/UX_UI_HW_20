@@ -227,3 +227,11 @@ margin-left:auto;
 .closingflexbox li{
     font-size: 20pt;
 }
+
+.storytitle{
+    padding:15px;
+}
+.ideationcard p,.ideationcard h5{
+    text-align: center;
+    width:100%;
+}
