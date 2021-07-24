@@ -233,10 +233,12 @@ margin-left:auto;
 }
 
 .closingflexbox h3{
- font-size: 26pt;   
+    margin-left:5%; font-size: 28pt;   
 }
 .closingflexbox li{
-    font-size: 20pt;
+    font-size: 25pt;
+    width:85%;
+    margin-left:10%;
 }
 
 .storytitle{
